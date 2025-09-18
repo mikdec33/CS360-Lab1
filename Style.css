@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("images/background.png");
+    background-size: cover;         
+    background-repeat: no-repeat;    
+    background-position: center;      
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center; 
+    margin-top: 60px;
+    color: #ffffff;
+    height: 60px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: 0px;
+    color: #ff86e9;
+}
+
+nav a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; /* centers the images horizontally */
+    gap: 270px;               /* adds space between them */
+    margin-top: 40px;
+}
+
+.image-row img {
+    max-width: 400px;        /* adjust size as needed */
+    height: auto;
+}
+
+
